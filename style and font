@@ -1,0 +1,42 @@
+#navbar{
+  height:530px;
+  width:350px;
+  position:fixed;
+  top:0px;
+  left:2px;
+  text-align:center;
+}
+.nav-link{
+  color:black;
+  text-decoration: none;
+}
+
+#main-doc{
+  border:2px dashed white;
+  width:900px;
+  position:relative;
+  left:350px;
+  font-family:monospace;
+  font-size:16px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 600px;
+  position: fixed;
+  left: 350px;
+  margin-left: -3px;
+  top: 0;
+}
+.bigger{
+  height:44px;
+}
+code{
+  background-color:Lavender;
+}
+
+@media (max-width: 600px) {
+  #navbar{
+    height:150px;
+  }
+  
+}
